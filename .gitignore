@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch / YOLO cache & runs
+runs/
+.cache/
+
+# Runtime test captures and logs (preserve directory with .gitkeep)
+deploy/output/live_captures/*.jpg
+deploy/output/live_captures/*.png
+deploy/output/*.csv
+!deploy/output/live_captures/.gitkeep
+
+# Environments & IDEs
+.env
+.venv
+env/
+venv/
+.vscode/
+.idea/

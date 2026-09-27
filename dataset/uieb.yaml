@@ -1,0 +1,13 @@
+# Ultralytics YOLO dataset configuration for UIEB (Underwater Image Enhancement Benchmark)
+path: ./uieb_data
+train: images/train
+val: images/val
+
+# Target Classes detected in underwater imagery
+names:
+  0: fish
+  1: small_fish
+  2: crab
+  3: marine_object
+  4: diver
+  5: obstacle

@@ -1,0 +1,19 @@
+# Core Computer Vision & Deep Learning
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.23.0
+Pillow>=9.0.0
+
+# Edge Acceleration (for Raspberry Pi / ONNX / TFLite)
+onnx>=1.14.0
+onnxruntime>=1.15.0
+
+# Kaggle Dataset Fetching
+kaggle>=1.5.16
+requests>=2.28.0
+pyyaml>=6.0
+
+# Raspberry Pi Hardware GPIO (installed on the Pi)
+# Note: On non-Pi systems (Windows/Mac), the code automatically uses simulated GPIO.
+# RPi.GPIO>=0.7.1
+# gpiozero>=2.0
